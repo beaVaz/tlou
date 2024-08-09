@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+body{
+    padding: 2.5em 3em;
+    width: 100wh;
+    height: 100%;
+    background-image: url("/assets/wp5532607-the-last-of-us-desktop-wallpapers.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 2em;
+    height: inherit;
+}
+#img_logo_header img{
+    width: 5em;
+    height: 5%;
+}
+
