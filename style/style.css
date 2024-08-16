@@ -18,15 +18,16 @@ body{
 }
 
 header{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 header a{
     color: #f5f5f5;
-    padding: 1em;
+    padding: 0.8em;
     background-color:#0F1417;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 400;
     text-decoration: none;
     text-align: center;
@@ -38,14 +39,12 @@ header a:hover{
     border-radius: 5px;
     transition: ease-in-out 0.3s;
 }
-
 nav{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-
 nav img{
     width: 2em;
     height: inherit;
@@ -53,6 +52,7 @@ nav img{
 #img_logo_header img{
     width: 3em;
 }
+
 main{
     display: flex;
     justify-content: center;
