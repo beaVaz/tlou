@@ -24,7 +24,7 @@ header{
 }
 header a{
     color: #f5f5f5;
-    padding: 18px;
+    padding: 1em;
     background-color:#0F1417;
     font-size: 1em;
     font-weight: 400;
@@ -39,23 +39,30 @@ header a:hover{
     transition: ease-in-out 0.3s;
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 nav img{
     width: 2em;
     height: inherit;
 }
 #img_logo_header img{
-    width: 4em;
+    width: 3em;
 }
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 7em 0;
 }
 .text_main{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 main span{
     color: #f5f5f5;
@@ -100,22 +107,15 @@ span:nth-child(3){
 }
 .nav_side{
     width: 100%;
-    max-width: 20px;
-    margin: 0;
-    padding: 0;
+    margin-top: 3em;
     display: flex;
-    align-items: end;
     justify-content: center;
-    flex-direction: column;
-    position: relative;
-    gap: 0.8em;
+    align-items: center;
+    gap: 1em;
 }
-.sidebar{
-    width: 10%;
-    height: 100%;
-}
+
 .sidebar img{
-    width: 23px;
+    width: 30px;
     transition: ease-in-out 0.81s;
  
 }.sidebar img:hover{
